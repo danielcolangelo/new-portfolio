@@ -20,6 +20,15 @@ ul{
 	margin: 0;
 }
 
+.button_1{
+	height; 38px;
+	background: #e8491a;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20;
+	color: white;
+}
+
 /* heading */
 
 header {
@@ -68,6 +77,14 @@ header a:hover{
 	font-weight: bold;
 }
 
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 /* showcase */
 
 #showcase{
@@ -81,4 +98,73 @@ header a:hover{
 	margin-top: 100px;
 	font-size: 55px;
 	margin-bottom: 10px;
+}
+
+#showcast p{
+	font-size: 20px;
+}
+
+/* newsletter to be moved later */
+
+#newsletter{
+	padding: 15px;
+	color: white;
+	background: #35424a;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width; 250px;
+}
+
+/* boxes or portfolio pieces */
+
+#boxes {
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding 10px;
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+/* sidebar for about page */
+
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+/* main-col or main article */
+
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+/* footer area */
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background-color: #e8491d;
+	text-align: center;
 }
